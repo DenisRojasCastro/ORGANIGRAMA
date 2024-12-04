@@ -71,7 +71,7 @@ var chart = new OrgChart(document.getElementById("tree"), {
   movable: OrgChart.movable.tree,
   //FORMA COMO SE ACOMODAN LOS NODOS//
   toolbar: {
-    // layout: true,
+    layout: true,
     zoom: true,
     fit: true,
     expandAll: true,
