@@ -148,7 +148,7 @@ var chart = new OrgChart(document.getElementById("tree"), {
     elements: [
       {
         type: "textbox",
-        label: "Posicion",
+        label: "Posición",
         binding: "title",
       },
       {
@@ -163,17 +163,17 @@ var chart = new OrgChart(document.getElementById("tree"), {
       },
       {
         type: "textbox",
-        label: "Sub División",
+        label: "Ubicación",
         binding: "SubDivision",
       },
       {
         type: "textbox",
-        label: "Jefe Directo",
+        label: "Jefe directo",
         binding: "Supervisor",
       },
       {
         type: "textbox",
-        label: "Area",
+        label: "Área",
         binding: "Area",
       },
       {
