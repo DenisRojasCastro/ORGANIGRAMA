@@ -168,7 +168,7 @@ var chart = new OrgChart(document.getElementById("tree"), {
       },
       {
         type: "textbox",
-        label: "Supervisor",
+        label: "Jefe Directo",
         binding: "Supervisor",
       },
       {
