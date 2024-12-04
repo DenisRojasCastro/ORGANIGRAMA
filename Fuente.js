@@ -7150,17 +7150,17 @@ var OrgChart = function (t, e) {
     ripple: { radius: 0, color: "#e6e6e6", rect: null },
     expandCollapseSize: 30,
     svg: '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  style="display:block;" width="{w}" height="{h}" viewBox="{viewBox}">{content}</svg>',
-    link: '<path stroke-linejoin="round" stroke="#aeaeae" stroke-width="1px" fill="none" d="{rounded}" />',
+    link: '<path stroke-linejoin="round" stroke="black" stroke-width="1px" fill="none" d="{rounded}" />',
     assistanseLink:
       '<path stroke-linejoin="round" stroke="#aeaeae" stroke-width="2px" fill="none" d="M{xa},{ya} {xb},{yb} {xc},{yc} {xd},{yd} L{xe},{ye}"/>',
     pointer:
       '<g data-pointer="pointer" transform="matrix(0,0,0,0,100,100)"><radialGradient id="pointerGradient"><stop stop-color="#ffffff" offset="0" /><stop stop-color="#C1C1C1" offset="1" /></radialGradient><circle cx="16" cy="16" r="16" stroke-width="1" stroke="#acacac" fill="url(#pointerGradient)"></circle></g>',
     node: '<rect x="0" y="0" height="{h}" width="{w}" fill="#039BE5" stroke-width="1" stroke="#aeaeae" rx="7" ry="7"></rect>',
-    plus: `<circle cx="15" cy="15" r="23" fill="#ffffff" stroke="#aeaeae" stroke-width="1"></circle>
-    <text text-anchor="middle" style="font-size: 18px;cursor:pointer;" fill="#757575" x="15" y="22">{children-total-count}</text>`,
+    plus: `<circle cx="15" cy="15" r="23" fill="#ffffff" stroke="black" stroke-width="1"></circle>
+    <text text-anchor="middle" style="font-size: 18px;cursor:pointer;font-weight: bold;" fill="#757575" x="15" y="22">{children-total-count}</text>`,
     minus:
-      `<circle cx="15" cy="15" r="23" fill="#ffffff" stroke="#aeaeae" stroke-width="1"></circle>
-    <text text-anchor="middle" style="font-size: 18px;cursor:pointer;" fill="#757575" x="15" y="22">{children-total-count}</text>`,
+      `<circle cx="15" cy="15" r="23" fill="#ffffff" stroke="black" stroke-width="1"></circle>
+    <text text-anchor="middle" style="font-size: 18px;cursor:pointer;font-weight: bold;" fill="#757575" x="15" y="22">{children-total-count}</text>`,
     up: '<rect x="20" y="-25" width="30" height="17" fill="#aeaeae" rx="3" ry="3"></rect><line x1="35" x2="35" y1="0" y2="-8" stroke="#aeaeae" stroke-width="1"></line>',
     nodeMenuButton:
       '<g style="cursor:pointer;" transform="matrix(1,0,0,1,225,105)" ' +
